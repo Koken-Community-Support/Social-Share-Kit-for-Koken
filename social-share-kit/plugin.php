@@ -10,7 +10,7 @@ class SocialShareKit extends KokenPlugin {
 	}
 	function render_into_head(){
 		echo <<<OUT
-<link rel="stylesheet" href="{$this->get_path()}/css/social-share-kit.css" type="text/css">
+<link rel="stylesheet" href="{$this->get_path()}/css/social-share-kit.min.css" type="text/css">
 OUT;
 	}
 
@@ -20,9 +20,15 @@ OUT;
 		$ssk_grayscale	= $this->data->SocialShareKit_gray;
 		$ssk_shape		= $this->data->SocialShareKit_shape;
 
+	if ($this->data->SocialShareKit_hides){
+	echo <<<HTML
+<div class="ssk-group ssk-sticky ssk-center {$ssk_side} {$ssk_size} {$ssk_grayscale} {$ssk_shape} ssk-sticky-hide-xs">
+HTML;
+	} else {
 		echo <<<HTML
 <div class="ssk-group ssk-sticky ssk-center {$ssk_side} {$ssk_size} {$ssk_grayscale} {$ssk_shape}">
 HTML;
+	}
 	if ($this->data->SocialShareKit_facebook){
 		echo <<<HTML
 <a href="" class="ssk ssk-facebook" title="{$this->data->SocialShareKit_sharethisFB}"></a>

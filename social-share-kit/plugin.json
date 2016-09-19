@@ -1,6 +1,6 @@
 {
 	"name": "Social share kit for Koken",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Social Share Kit is a library of decent and good looking CSS/JavaScript social sharing icons, buttons and popups.",
 	"demo": "https://kokensupport.com/demo/",
 	"author": {
@@ -21,6 +21,12 @@
 				{ "label": "Bottom", "value": "ssk-bottom" }
 			],
 			"value": "ssk-right"
+		},
+		"SocialShareKit_hide": {
+			"label": "Hide on small devices",
+			"info": "Hides the sharing icons in devices smaller then 767pixels",
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_size": {
 			"label": "Icon size",
