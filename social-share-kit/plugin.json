@@ -1,6 +1,6 @@
 {
 	"name": "Social share kit for Koken",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Social Share Kit is a library of decent and good looking CSS/JavaScript social sharing icons, buttons and popups.",
 	"demo": "https://kokensupport.com/demo/",
 	"author": {
@@ -13,7 +13,7 @@
 	"data": {
 		"SocialShareKit_side": {
 			"label": "Placement",
-			"info": "",
+			"info": "Where will the sharing icons group be placed",
 			"type": "select",
 			"options": [
 				{ "label": "Left side", "value": "ssk-left" },
@@ -24,7 +24,7 @@
 		},
 		"SocialShareKit_size": {
 			"label": "Icon size",
-			"info": "",
+			"info": "The size of the icons",
 			"type": "select",
 			"options": [
 				{ "label": "Extra small", "value": "ssk-xs" },
@@ -36,7 +36,7 @@
 		},
 		"SocialShareKit_shape": {
 			"label": "Icon shape",
-			"info": "",
+			"info": "Sharing icons shape",
 			"type": "select",
 			"options": [
 				{ "label": "Square", "value": "ssk-default" },
@@ -47,7 +47,7 @@
 		},
 		"SocialShareKit_gray": {
 			"label": "Color",
-			"info": "",
+			"info": "Choose between gray scale or colored icons",
 			"type": "select",
 			"options": [
 				{ "label": "Colored", "value": "ssk-default" },
@@ -56,99 +56,123 @@
 			"value": "ssk-default"
 		},
 		"SocialShareKit_facebook": {
-			"label": "Display Facebook",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"label": "Share to Facebook",
+			"info": "Show or hide sharing to Facebook",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisFB": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Share this on Facebook",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_facebook", "equals": true}]
+			}
 		},
 		"SocialShareKit_twitter": {
 			"label": "Share to Twitter",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to Twitter",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisTwitter": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Tweet this",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_twitter", "equals": true}]
+			}
 		},
 		"SocialShareKit_gplus": {
 			"label": "Share to Google Plus",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to Google+",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisgPlus": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Share this on Google+",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_gplus", "equals": true}]
+			}
 		},
 		"SocialShareKit_pinterest": {
 			"label": "Share to Pinterest",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to Pinterest",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisPinterest": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Pin this on Pinterest",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_pinterest", "equals": true}]
+			}
 		},
 		"SocialShareKit_tumblr": {
 			"label": "Share to Tumblr",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to Tumblr",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisTumblr": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Share this on Tumblr",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_tumblr", "equals": true}]
+			}
 		},
 		"SocialShareKit_vk": {
 			"label": "Share to VK",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to VK",
+			"type": "boolean"
+		},
+		"SocialShareKit_sharethisVK": {
+			"label": "Share this text",
+			"info": "Text shown on mouse over",
+			"type": "string",
+			"value": "Share this on VK",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_vk", "equals": true}]
+			}
 		},
 		"SocialShareKit_linkedin": {
 			"label": "Share to LinkedIn",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing to LinkedIn",
+			"type": "boolean"
 		},
-		"SocialShareKit_sharethis": {
+		"SocialShareKit_sharethisLinkedIn": {
 			"label": "Share this text",
-			"info": "",
+			"info": "Text shown on mouse over",
 			"type": "string",
-			"value": "Share this on"
+			"value": "Share this on LinkedIn",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_linkedin", "equals": true}]
+			}
 		},
 		"SocialShareKit_email": {
 			"label": "Share via email",
-			"info": "",
-			"type": "select",
-			"options":[
-				{ "label": "Yes", "value": "block" },
-				{ "label": "No", "value": "none" }
-			],
-			"value": "block"
+			"info": "Show or hide sharing via email",
+			"type": "boolean"
 		},
 		"SocialShareKit_sharemail": {
 			"label": "Share this via mail",
-			"info": "",
+			"info": "Text shown on mouse over",
 			"type": "string",
 			"value": "Share this via mail",
 			"dependencies": {
 				"evaluate": "all",
-				"conditions": [{"option": "SocialShareKit_email", "equals": "block"}]
+				"conditions": [{"option": "SocialShareKit_email", "equals": true}]
 			}
 		}
 	}
