@@ -10,7 +10,7 @@ class SocialShareKit extends KokenPlugin {
 	}
 	function render_into_head(){
 		echo <<<OUT
-<link rel="stylesheet" href="{$this->get_path()}/css/social-share-kit.min.css" type="text/css">
+<link rel="stylesheet" href="{$this->get_path()}/css/social-share-kit.css" type="text/css">
 OUT;
 	}
 
