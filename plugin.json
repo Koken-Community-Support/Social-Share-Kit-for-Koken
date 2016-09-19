@@ -1,0 +1,155 @@
+{
+	"name": "Social share kit for Koken",
+	"version": "1.0",
+	"description": "Social Share Kit is a library of decent and good looking CSS/JavaScript social sharing icons, buttons and popups.",
+	"demo": "https://kokensupport.com/demo/",
+	"author": {
+		"name": "Koken Community Support",
+		"link": "https://kokensupport.com"
+	},
+
+	"koken_version_required": "22.0",
+
+	"data": {
+		"SocialShareKit_side": {
+			"label": "Placement",
+			"info": "",
+			"type": "select",
+			"options": [
+				{ "label": "Left side", "value": "ssk-left" },
+				{ "label": "Right Side", "value": "ssk-right" },
+				{ "label": "Bottom", "value": "ssk-bottom" }
+			],
+			"value": "ssk-right"
+		},
+		"SocialShareKit_size": {
+			"label": "Icon size",
+			"info": "",
+			"type": "select",
+			"options": [
+				{ "label": "Extra small", "value": "ssk-xs" },
+				{ "label": "Small", "value": "ssk-sm" },
+				{ "label": "Standard", "value": "ssk-default" },
+				{ "label": "Large", "value": "ssk-lg" }
+			],
+			"value": "ssk-default"
+		},
+		"SocialShareKit_shape": {
+			"label": "Icon shape",
+			"info": "",
+			"type": "select",
+			"options": [
+				{ "label": "Square", "value": "ssk-default" },
+				{ "label": "Rounded", "value": "ssk-rounded" },
+				{ "label": "Round", "value": "ssk-round"}
+			],
+			"value": "ssk-default"
+		},
+		"SocialShareKit_gray": {
+			"label": "Color",
+			"info": "",
+			"type": "select",
+			"options": [
+				{ "label": "Colored", "value": "ssk-default" },
+				{ "label": "Gray scale", "value": "ssk-grayscale"}
+			],
+			"value": "ssk-default"
+		},
+		"SocialShareKit_facebook": {
+			"label": "Display Facebook",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_twitter": {
+			"label": "Share to Twitter",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_gplus": {
+			"label": "Share to Google Plus",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_pinterest": {
+			"label": "Share to Pinterest",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_tumblr": {
+			"label": "Share to Tumblr",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_vk": {
+			"label": "Share to VK",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_linkedin": {
+			"label": "Share to LinkedIn",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_sharethis": {
+			"label": "Share this text",
+			"info": "",
+			"type": "string",
+			"value": "Share this on"
+		},
+		"SocialShareKit_email": {
+			"label": "Share via email",
+			"info": "",
+			"type": "select",
+			"options":[
+				{ "label": "Yes", "value": "block" },
+				{ "label": "No", "value": "none" }
+			],
+			"value": "block"
+		},
+		"SocialShareKit_sharemail": {
+			"label": "Share this via mail",
+			"info": "",
+			"type": "string",
+			"value": "Share this via mail",
+			"dependencies": {
+				"evaluate": "all",
+				"conditions": [{"option": "SocialShareKit_email", "equals": "block"}]
+			}
+		}
+	}
+}
