@@ -76,7 +76,7 @@ HTML;
 
 	function renderLast(){
 		echo <<<OUT
-<script type="text/javascript" src="{$this->get_path()}/js/social-share-kit.min.js"></script>
+<script src="{$this->get_path()}/js/social-share-kit.min.js"></script>
 <script>
 	SocialShareKit.init();
 </script>
