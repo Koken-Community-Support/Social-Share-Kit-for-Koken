@@ -8,15 +8,27 @@ The only thing we have done, is to adapt the code to be able to run as a native 
 
 ## Features
 
-* Runs as a native Koken plugin
+* Runs as a **native Koken plugin**
 * Works with any Koken theme
-* Retina ready with font icons
+* **Retina ready** with font icons
 * 4x sizing options
 * IE8+, Chrome, Firefox, Safari
 * No jQuery dependency
-* Mobile / Responsive sticky share icon bars
+* Mobile / **Responsive** sticky share icon bars
 * JavaScript for share and delayed popups included
-* **Lightweight: Font - 6KB, CSS - 11KB, JS: 5KB**
+* **Lightweight**: Font - 6KB, CSS - 11KB, JS: 5KB
+* Automaticly hides on screens smaller then 768px
+
+## Supports sharing to
+
+* Facebook
+* Twitter
+* Google Plus
+* Pinterest
+* Tumblr
+* VK
+* LinkedIn
+* Email
 
 ## Demo & Support
 
