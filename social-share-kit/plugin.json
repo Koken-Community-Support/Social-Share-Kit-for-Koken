@@ -1,7 +1,7 @@
 {
 	"name": "Social share kit for Koken",
 	"version": "1.0.3",
-	"description": "Social Share Kit is a library of decent and good looking CSS/JavaScript social sharing icons, buttons and popups.",
+	"description": "Social Share Kit for Koken is a library of good looking CSS/JavaScript social sharing icons, buttons and popups.",
 	"demo": "https://kokensupport.com/demo/",
 	"author": {
 		"name": "Koken Community Support",
@@ -64,7 +64,8 @@
 		"SocialShareKit_facebook": {
 			"label": "Share to Facebook",
 			"info": "Show or hide sharing to Facebook",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisFB": {
 			"label": "Share this text",
@@ -79,7 +80,8 @@
 		"SocialShareKit_twitter": {
 			"label": "Share to Twitter",
 			"info": "Show or hide sharing to Twitter",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisTwitter": {
 			"label": "Share this text",
@@ -94,7 +96,8 @@
 		"SocialShareKit_gplus": {
 			"label": "Share to Google Plus",
 			"info": "Show or hide sharing to Google+",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisgPlus": {
 			"label": "Share this text",
@@ -109,7 +112,8 @@
 		"SocialShareKit_pinterest": {
 			"label": "Share to Pinterest",
 			"info": "Show or hide sharing to Pinterest",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisPinterest": {
 			"label": "Share this text",
@@ -124,7 +128,8 @@
 		"SocialShareKit_tumblr": {
 			"label": "Share to Tumblr",
 			"info": "Show or hide sharing to Tumblr",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisTumblr": {
 			"label": "Share this text",
@@ -139,7 +144,8 @@
 		"SocialShareKit_vk": {
 			"label": "Share to VK",
 			"info": "Show or hide sharing to VK",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisVK": {
 			"label": "Share this text",
@@ -154,7 +160,8 @@
 		"SocialShareKit_linkedin": {
 			"label": "Share to LinkedIn",
 			"info": "Show or hide sharing to LinkedIn",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharethisLinkedIn": {
 			"label": "Share this text",
@@ -169,7 +176,8 @@
 		"SocialShareKit_email": {
 			"label": "Share via email",
 			"info": "Show or hide sharing via email",
-			"type": "boolean"
+			"type": "boolean",
+			"value": true
 		},
 		"SocialShareKit_sharemail": {
 			"label": "Share this via mail",

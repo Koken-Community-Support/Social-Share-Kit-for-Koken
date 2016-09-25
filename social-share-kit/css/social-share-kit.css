@@ -432,7 +432,7 @@
 }
 
 .ssk-facebook {
-    background-color: #255c95
+    background-color: #3B5998
 }
 
 .ssk-grayscale>.ssk-facebook {
@@ -440,23 +440,23 @@
 }
 
 .ssk-facebook:hover {
-    background-color: #1b436c
+    background-color: #2d4373
 }
 
 .ssk-facebook:hover {
-    background-color: #1b436c
+    background-color: #2d4373
 }
 
 .ssk-grayscale>.ssk-facebook:hover {
-    background-color: #255c95
+    background-color: #3B5998
 }
 
 .ssk-facebook.ssk-icon {
-    color: #255c95
+    color: #3B5998
 }
 
 .ssk-facebook.ssk-icon:hover {
-    color: #1b436c
+    color: #2d4373
 }
 
 .ssk-facebook.ssk-icon:before {
@@ -465,7 +465,7 @@
 }
 
 .ssk-twitter {
-    background-color: #00b4e0
+    background-color: #1DA1F2
 }
 
 .ssk-grayscale>.ssk-twitter {
@@ -473,27 +473,27 @@
 }
 
 .ssk-twitter:hover {
-    background-color: #008bad
+    background-color: #0c85d0
 }
 
 .ssk-twitter:hover {
-    background-color: #008bad
+    background-color: #0c85d0
 }
 
 .ssk-grayscale>.ssk-twitter:hover {
-    background-color: #00b4e0
+    background-color: #1DA1F2
 }
 
 .ssk-twitter.ssk-icon {
-    color: #00b4e0
+    color: #1DA1F2
 }
 
 .ssk-twitter.ssk-icon:hover {
-    color: #008bad
+    color: #0c85d0
 }
 
 .ssk-google-plus {
-    background-color: #f1403a
+    background-color: #EA4335
 }
 
 .ssk-grayscale>.ssk-google-plus {
@@ -501,27 +501,27 @@
 }
 
 .ssk-google-plus:hover {
-    background-color: #e81810
+    background-color: #d62516
 }
 
 .ssk-google-plus:hover {
-    background-color: #e81810
+    background-color: #d62516
 }
 
 .ssk-grayscale>.ssk-google-plus:hover {
-    background-color: #f1403a
+    background-color: #EA4335
 }
 
 .ssk-google-plus.ssk-icon {
-    color: #f1403a
+    color: #EA4335
 }
 
 .ssk-google-plus.ssk-icon:hover {
-    color: #e81810
+    color: #d62516
 }
 
 .ssk-pinterest {
-    background-color: #cb2027
+    background-color: #BD081C
 }
 
 .ssk-grayscale>.ssk-pinterest {
@@ -529,23 +529,23 @@
 }
 
 .ssk-pinterest:hover {
-    background-color: #9f191f
+    background-color: #8c0615
 }
 
 .ssk-pinterest:hover {
-    background-color: #9f191f
+    background-color: #8c0615
 }
 
 .ssk-grayscale>.ssk-pinterest:hover {
-    background-color: #cb2027
+    background-color: #BD081C
 }
 
 .ssk-pinterest.ssk-icon {
-    color: #cb2027
+    color: #BD081C
 }
 
 .ssk-pinterest.ssk-icon:hover {
-    color: #9f191f
+    color: #8c0615
 }
 
 .ssk-tumblr {
